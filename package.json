@@ -1,0 +1,20 @@
+{
+  "name": "fb-wp-feed-poster",
+  "version": "1.0.0",
+  "description": "A service for posting jobs from the SmartFeed to Facebook Workplace",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Accrosoft",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "raven": "^2.6.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.384.0",
+    "dotenv": "^6.2.0"
+  }
+}
